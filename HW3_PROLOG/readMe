@@ -1,0 +1,47 @@
+              Part1
+##############main fonksiyonlar#############
+#add_student(ID, Courses, SC)
+
+ID => Student id
+Courses => Student Courses
+SC => Student special
+
+#add_course(ID, Instructor, Capacity, Hour, Room, Needs, Hd)
+
+ID => Course id
+Instructor => instructor name
+Capacity => course Capacity
+Hour => Course Hour
+Room => Room for course
+Needs => Course Needs
+Hd => Handcape
+
+#add_room(ID, Capacity,RN)
+
+ID => Room id
+Capacity => Room Capacity
+RN => Room Needs
+
+#assign(RID, CID)
+
+RID => Room id
+CID => Course id
+
+#enroll(SID, CID): it does not work well, it needs to be fixed
+
+SID => Student id
+CID => Course id
+
+#conflict(CID1,CID2)
+
+CID1 => Course id 1
+CID2 => Course id 2
+
+
+                      PART2
+#####################3Main fonksiyonlar#######################
+
+route(X,Y,C)
+
+X =>city name
+Y =>city name
